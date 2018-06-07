@@ -1,0 +1,90 @@
+html{ 
+  height:100%;
+  background-image:
+  url('https://images.pexels.com/photos/1037993/pexels-photo-1037993.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+  background-size:cover;
+}
+
+
+#banner{
+  padding-top:22%;
+  font-family:'Amatic SC', cursive;
+  font-size:35px;
+  display:flex;
+  justify-content:center;
+}
+ #heading{ 
+   height: 100%;
+   font-family: 'Pangolin', cursive;;
+   display:flex;
+   justify-content:space-around;
+   color:#7c7cb2;
+ }
+ 
+ .navbar {
+   display: flex;
+   justify-content:space-around;
+   background-color:white;
+   position: fixed;
+   top:0;
+   left:0;
+   width:100% /*Full width*/;
+ }
+   
+   
+ .navbar a {
+   float: left;
+   display:block;
+   text-align:center;
+   padding:14px 16px;
+   text-decoration:none;
+   color:#30dfee;
+   font-family:'Pangolin', cursive;
+ }
+ .navbar a:hover{
+   color:purple;
+   background:#d3ffce;
+ }
+   
+ #about-content{
+   display:flex;
+   justify-content:space-around;
+   margin-top:22%;
+ } 
+  img{
+    border-radius:50%;
+  border:solid 5px #b2bb2ff;
+  }
+.my-description {
+  background-color:#bcf5f6;
+  margin:3%;
+  padding:4%;
+  font-family:'Damion',cursive
+}
+.project-container{
+  margin-top:20%;
+  display:flex;
+  width:100%;
+  height:100%;
+  justify-content:space-between;
+}
+span{
+  background:#E6e5f4;
+  width:30%;
+  height:60%;
+  margin:2%;
+  padding:2%;
+  font-family:'Pangolin',cursive;
+  color:blue;
+  align-items:center;
+  
+}
+.feature-content{
+  margin-top:20%;
+  height:78%;
+  width:;
+}
+
+
+
+
